@@ -1,0 +1,455 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Bonjour le monde </TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.5  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20190927;181425">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		TD P { margin-bottom: 0cm }
+		H3 { margin-bottom: 0.21cm }
+		H3.cjk { font-family: "SimSun" }
+		H3.ctl { font-family: "Arial" }
+		H4 { margin-bottom: 0.21cm }
+		H4.cjk { font-family: "SimSun" }
+		H4.ctl { font-family: "Arial" }
+		H2 { margin-bottom: 0.21cm }
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Arial" }
+		H1 { margin-bottom: 0.21cm }
+		H1.western { font-family: "Times New Roman", serif }
+		H1.cjk { font-family: "SimSun" }
+		H1.ctl { font-family: "Arial" }
+		CODE.cjk { font-family: "NSimSun", monospace }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="fr-FR" DIR="LTR">
+<H1 CLASS="western">Bonjour le monde 
+</H1>
+<P>10 minutes de lecture 
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#intro">Intro</A></P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#what">Qu'est-ce
+	que GitHub?</A></P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#repository">Cr&eacute;er
+	un r&eacute;f&eacute;rentiel</A></P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#branch">Cr&eacute;er
+	une branche</A></P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#commit">S'engager</A></P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="https://guides.github.com/activities/hello-world/#pr">Ouvrir
+	une demande de tirage</A></P>
+	<LI><P><A HREF="https://guides.github.com/activities/hello-world/#merge">Demande
+	de fusion</A></P>
+</OL>
+<P>Le projet <STRONG>Hello World</STRONG> est une tradition de longue
+date dans la programmation informatique. C'est un exercice simple qui
+vous permet de commencer &agrave; apprendre quelque chose de nouveau.
+Commen&ccedil;ons avec GitHub! 
+</P>
+<P><STRONG>Vous allez apprendre &agrave;:</STRONG> 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Cr&eacute;er et utiliser un
+	r&eacute;f&eacute;rentiel 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">D&eacute;marrer et g&eacute;rer
+	une nouvelle branche 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Apporter des modifications &agrave;
+	un fichier et les transmettre &agrave; GitHub en tant que commits 
+	</P>
+	<LI><P>Ouvrir et fusionner une demande de tirage 
+	</P>
+</UL>
+<H2 CLASS="western">Qu'est-ce que GitHub? 
+</H2>
+<P>GitHub est une plateforme d'h&eacute;bergement de code pour le
+contr&ocirc;le de version et la collaboration. Cela vous permet, &agrave;
+vous et aux autres, de travailler ensemble sur des projets de
+n'importe o&ugrave;. 
+</P>
+<P>Ce tutoriel vous apprend les bases de GitHub telles que les
+<EM>r&eacute;f&eacute;rentiels</EM> , les <EM>branches</EM> , les
+<EM>validations</EM> et les <EM>requ&ecirc;tes d'extraction</EM> .
+Vous allez cr&eacute;er votre propre r&eacute;f&eacute;rentiel Hello
+World et apprendre le flux de travail Pull Request de GitHub, un
+moyen populaire de cr&eacute;er et de r&eacute;viser du code. 
+</P>
+<H4 CLASS="western">Aucun codage n&eacute;cessaire 
+</H4>
+<P>Pour compl&eacute;ter ce didacticiel, vous avez besoin d&rsquo;un
+<A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=http://github.com/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhh5YqIotEvoDM1h3XX1Qqyp7rtLbA">compte
+GitHub.com</A> et d&rsquo;un acc&egrave;s Internet. Vous n'avez pas
+besoin de savoir comment coder, utiliser la ligne de commande ou
+installer Git (le logiciel de contr&ocirc;le de version sur lequel
+GitHub est construit). 
+</P>
+<BLOCKQUOTE><STRONG>Conseil:</STRONG> ouvrez ce guide dans une
+fen&ecirc;tre (ou un onglet) distincte du navigateur afin de pouvoir
+le visualiser tout en effectuant les &eacute;tapes du didacticiel. 
+</BLOCKQUOTE>
+<H2 CLASS="western">&Eacute;tape 1. Cr&eacute;er un r&eacute;f&eacute;rentiel
+</H2>
+<P>Un <STRONG>r&eacute;f&eacute;rentiel</STRONG> est g&eacute;n&eacute;ralement
+utilis&eacute; pour organiser un seul projet. Les r&eacute;f&eacute;rentiels
+peuvent contenir des dossiers et des fichiers, des images, des
+vid&eacute;os, des feuilles de calcul et des ensembles de donn&eacute;es
+- tout ce dont votre projet a besoin. Nous vous recommandons
+d'inclure un <EM>fichier README</EM> ou un fichier contenant des
+informations sur votre projet. GitHub facilite l'ajout d'un en m&ecirc;me
+temps que vous cr&eacute;ez votre nouveau r&eacute;f&eacute;rentiel.
+<EM>Il offre &eacute;galement d'autres options courantes telles qu'un
+fichier de licence.</EM> 
+</P>
+<P>Votre r&eacute;f&eacute;rentiel <CODE CLASS="western">hello-world</CODE>
+peut &ecirc;tre un endroit o&ugrave; vous stockez des id&eacute;es,
+des ressources ou m&ecirc;me partagez et discutez avec d'autres. 
+</P>
+<H3 CLASS="western">Pour cr&eacute;er un nouveau r&eacute;f&eacute;rentiel
+</H3>
+<OL>
+	<LI><P>Dans le coin sup&eacute;rieur droit, &agrave; c&ocirc;t&eacute;
+	de votre avatar ou de votre identicon, cliquez sur 
+	</P>
+</OL>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm">puis s&eacute;lectionnez <STRONG>Nouveau
+	r&eacute;f&eacute;rentiel</STRONG> . 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Nommez votre r&eacute;f&eacute;rentiel
+	<CODE CLASS="western">hello-world</CODE> . 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Ecrire une courte description. 
+	</P>
+	<LI><P>S&eacute;lectionnez <STRONG>Initialiser ce r&eacute;f&eacute;rentiel
+	avec un fichier README</STRONG> . 
+	</P>
+</OL>
+<P><IMG SRC="tutoGithub1_html_5e8a221c.png" NAME="images1" ALIGN=LEFT WIDTH=643 HEIGHT=389 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P>Cliquez sur <STRONG>Cr&eacute;er un r&eacute;f&eacute;rentiel</STRONG>
+. 
+</P>
+<H2 CLASS="western">&Eacute;tape 2. Cr&eacute;er une branche 
+</H2>
+<P><STRONG>La cr&eacute;ation de branches</STRONG> est le moyen de
+travailler simultan&eacute;ment sur diff&eacute;rentes versions d&rsquo;un
+r&eacute;f&eacute;rentiel. 
+</P>
+<P>Par d&eacute;faut, votre r&eacute;f&eacute;rentiel a une branche
+appel&eacute;e <CODE CLASS="western">master</CODE> qui est consid&eacute;r&eacute;e
+comme la branche d&eacute;finitive. Nous utilisons des branches pour
+exp&eacute;rimenter et apporter des modifications avant de les
+engager &agrave; <CODE CLASS="western">master</CODE> . 
+</P>
+<P>Lorsque vous cr&eacute;ez une branche &agrave; partir de la
+branche principale, vous cr&eacute;ez une copie, ou un instantan&eacute;,
+du <CODE CLASS="western">master</CODE> tel qu'il &eacute;tait &agrave;
+ce moment-l&agrave;. Si quelqu'un d'autre apportait des modifications
+&agrave; la branche principale pendant que vous travailliez sur votre
+branche, vous pouvez r&eacute;cup&eacute;rer ces mises &agrave; jour.
+</P>
+<P>Ce diagramme montre: 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">La branche <CODE CLASS="western">master</CODE>
+		</P>
+	<LI><P STYLE="margin-bottom: 0cm">Une nouvelle branche appel&eacute;e
+	<CODE CLASS="western">feature</CODE> (car nous effectuons un
+	&laquo;travail de fonctionnalit&eacute;&raquo; sur cette branche) 
+	</P>
+	<LI><P>Le parcours de cette <CODE CLASS="western">feature</CODE>
+	avant sa fusion en <CODE CLASS="western">master</CODE> 
+	</P>
+</UL>
+<P><IMG SRC="tutoGithub1_html_3da8dc01.png" NAME="images2" ALIGN=LEFT WIDTH=643 HEIGHT=162 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P>Avez-vous d&eacute;j&agrave; enregistr&eacute; diff&eacute;rentes
+versions d'un fichier? Quelque chose comme: 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><CODE CLASS="western">story.txt</CODE>
+		</P>
+	<LI><P STYLE="margin-bottom: 0cm"><CODE CLASS="western">story-joe-edit.txt</CODE>
+		</P>
+	<LI><P><CODE CLASS="western">story-joe-edit-reviewed.txt</CODE> 
+	</P>
+</UL>
+<P>Les branches r&eacute;alisent des objectifs similaires dans les
+r&eacute;f&eacute;rentiels GitHub. 
+</P>
+<P>Ici, chez GitHub, nos d&eacute;veloppeurs, r&eacute;dacteurs et
+concepteurs utilisent des branches pour conserver les correctifs de
+bogues et le fonctionnement des fonctionnalit&eacute;s s&eacute;par&eacute;ment
+de notre branche <CODE CLASS="western">master</CODE> (de production).
+Lorsqu'un changement est pr&ecirc;t, ils fusionnent leur branche en
+<CODE CLASS="western">master</CODE> . 
+</P>
+<H3 CLASS="western">Pour cr&eacute;er une nouvelle branche 
+</H3>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm">Acc&eacute;dez &agrave; votre
+	nouveau r&eacute;f&eacute;rentiel, <CODE CLASS="western">hello-world</CODE>
+	. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Cliquez sur le menu d&eacute;roulant
+	en haut de la liste de fichiers qui dit <STRONG>branche: ma&icirc;tre</STRONG>
+	. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Tapez un nom de branche,
+	<CODE CLASS="western">readme-edits</CODE> , dans la zone de texte de
+	la nouvelle branche. 
+	</P>
+	<LI><P>S&eacute;lectionnez la zone bleue <STRONG>Cr&eacute;er une
+	branche</STRONG> ou appuyez sur &laquo;Entr&eacute;e&raquo; sur
+	votre clavier. 
+	</P>
+</OL>
+<P><IMG SRC="tutoGithub1_html_m573f6ab9.gif" NAME="images12" ALIGN=LEFT WIDTH=479 HEIGHT=424 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P>Vous avez maintenant deux branches: <CODE CLASS="western">master</CODE>
+et <CODE CLASS="western">readme-edits</CODE> . Ils ont exactement la
+m&ecirc;me apparence, mais pas pour longtemps! Nous ajouterons
+ensuite nos modifications &agrave; la nouvelle branche. 
+</P>
+<H2 CLASS="western">&Eacute;tape 3. Effectuer et valider des
+modifications 
+</H2>
+<P>Bravo! Vous &ecirc;tes maintenant dans la vue de code pour votre
+branche <CODE CLASS="western">readme-edits</CODE> , qui est une copie
+de <CODE CLASS="western">master</CODE> . Faisons quelques
+modifications. 
+</P>
+<P>Sur GitHub, les modifications enregistr&eacute;es sont appel&eacute;es
+<EM>validations</EM> . Chaque commit a un <EM>message de commit</EM>
+associ&eacute;, qui est une description expliquant pourquoi une
+modification particuli&egrave;re a &eacute;t&eacute; apport&eacute;e.
+Les messages de validation capturent l'historique de vos
+modifications afin que les autres contributeurs puissent comprendre
+ce que vous avez fait et pourquoi. 
+</P>
+<H4 CLASS="western">Faire et valider des changements 
+</H4>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm">Cliquez sur le fichier <CODE CLASS="western">README.md</CODE>
+	. 
+	</P>
+	<LI><P>Clique le 
+	</P>
+</OL>
+<OL>
+	<LI VALUE=2><P STYLE="margin-bottom: 0cm">ic&ocirc;ne de crayon dans
+	le coin sup&eacute;rieur droit de la vue du fichier &agrave;
+	modifier. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Dans l'&eacute;diteur, &eacute;crivez
+	un peu sur vous. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Ecrivez un message de validation
+	d&eacute;crivant vos modifications. 
+	</P>
+	<LI><P>Cliquez sur <STRONG>le</STRONG> bouton <STRONG>Valider les
+	modifications</STRONG> . 
+	</P>
+</OL>
+<P><IMG SRC="tutoGithub1_html_m4228554b.png" NAME="images3" ALIGN=LEFT WIDTH=643 HEIGHT=437 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P>Ces modifications seront uniquement apport&eacute;es au fichier
+README de votre branche <CODE CLASS="western">readme-edits</CODE> .
+Cette branche contient donc un contenu diff&eacute;rent de <CODE CLASS="western">master</CODE>
+. 
+</P>
+<H2 CLASS="western">&Eacute;tape 4. Ouvrez une demande d'extraction 
+</H2>
+<P>Belles &eacute;ditions! Maintenant que vous avez des modifications
+dans une branche du <CODE CLASS="western">master</CODE> , vous pouvez
+ouvrir une <EM>demande d'extraction</EM> . 
+</P>
+<P>Les demandes de tirage sont au c&oelig;ur de la collaboration sur
+GitHub. Lorsque vous ouvrez une <EM>demande d'extraction</EM> , vous
+proposez vos modifications et demandez &agrave; quelqu'un de r&eacute;viser
+et d'extraire votre contribution et de la fusionner dans sa branche.
+Les demandes d' <EM>extraction</EM> affichent des diff&eacute;rences
+ou des diff&eacute;rences entre le contenu des deux branches. Les
+modifications, additions et soustractions sont indiqu&eacute;es en
+vert et en rouge. 
+</P>
+<P>D&egrave;s que vous effectuez un commit, vous pouvez ouvrir une
+demande d'extraction et d&eacute;marrer une discussion, m&ecirc;me
+avant la fin du code. 
+</P>
+<P>En utilisant le <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=https://help.github.com/articles/about-writing-and-formatting-on-github/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhiUuj6gzJHYjfmpRO6CgUVPTqWaPQ#text-formatting-toolbar">syst&egrave;me
+@mention</A> de GitHub dans votre message de demande d'extraction,
+vous pouvez demander des informations &agrave; des personnes ou &agrave;
+des &eacute;quipes sp&eacute;cifiques, qu'elles se trouvent dans le
+couloir ou dans 10 fuseaux horaires plus &eacute;loign&eacute;s. 
+</P>
+<P>Vous pouvez m&ecirc;me ouvrir des demandes d'extraction dans votre
+propre r&eacute;f&eacute;rentiel et les fusionner vous-m&ecirc;me.
+C'est un excellent moyen d'apprendre le flux GitHub avant de
+travailler sur des projets plus importants. 
+</P>
+<H4 CLASS="western">Ouvrir une requ&ecirc;te d'extraction pour
+modifier le fichier README 
+</H4>
+<P><BR><BR>
+</P>
+<TABLE WIDTH=641 BORDER=0 CELLPADDING=2 CELLSPACING=0>
+	<COL WIDTH=637>
+	<TR>
+		<TD WIDTH=637>
+			<P><STRONG>Demande de</STRONG> <STRONG>tirage</STRONG> , puis dans
+			la page Demande de <STRONG>tirage</STRONG> , cliquez sur le bouton
+			vert <STRONG>Nouvelle demande de tirage</STRONG> . 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637 HEIGHT=87>
+			<P><BR>
+			</P>
+			<P><IMG SRC="tutoGithub1_html_71f55e29.gif" NAME="images4" ALIGN=LEFT WIDTH=468 HEIGHT=126 BORDER=0><BR CLEAR=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P>Dans la zone <STRONG>Exemples de comparaisons</STRONG> ,
+			s&eacute;lectionnez la branche que vous avez <CODE CLASS="western">readme-edits</CODE>
+			, les <CODE CLASS="western">readme-edits</CODE> , &agrave;
+			comparer avec le <CODE CLASS="western">master</CODE> (l'original).
+						</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637 HEIGHT=80>
+			<P><BR>
+			</P>
+			<P><IMG SRC="tutoGithub1_html_25513be5.png" NAME="images5" ALIGN=LEFT WIDTH=402 HEIGHT=105 BORDER=0><BR CLEAR=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P>Examinez vos modifications dans les diff&eacute;rences de la
+			page de comparaison, assurez-vous qu'elles correspondent &agrave;
+			ce que vous souhaitez soumettre. 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P ALIGN=CENTER><BR>
+			</P>
+			<P><IMG SRC="tutoGithub1_html_1fa7c8db.png" NAME="images6" ALIGN=LEFT WIDTH=402 HEIGHT=393 BORDER=0><BR CLEAR=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P>Lorsque vous &ecirc;tes convaincu que ce sont les modifications
+			que vous souhaitez soumettre, cliquez sur le gros bouton vert
+			<STRONG>Cr&eacute;er une demande d'</STRONG> extraction. 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P><BR>
+			</P>
+			<P><IMG SRC="tutoGithub1_html_3d1404c0.png" NAME="images7" ALIGN=LEFT WIDTH=402 HEIGHT=207 BORDER=0><BR CLEAR=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P>Donnez un titre &agrave; votre demande d'extraction et d&eacute;crivez
+			bri&egrave;vement vos modifications. 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=637>
+			<P><IMG SRC="tutoGithub1_html_m179828ce.png" NAME="images8" ALIGN=LEFT WIDTH=637 HEIGHT=454 BORDER=0><BR CLEAR=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>Lorsque vous avez termin&eacute; avec votre message, cliquez sur
+<STRONG>Cr&eacute;er une demande d'extraction</STRONG> ! 
+</P>
+<HR>
+<BLOCKQUOTE><STRONG>Astuce</STRONG> : vous pouvez utiliser <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=https://help.github.com/articles/basic-writing-and-formatting-syntax/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhh--vFMO4svNUTUTeA39_3__enf6g#using-emoji">emoji</A>
+et <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhiEZ88RvI7AjZJLQ34Q3Ar9OX8Nyw">faire
+glisser des images et des gifs par glisser / d&eacute;poser</A> sur
+les commentaires et les demandes d'extraction. 
+</BLOCKQUOTE>
+<H2 CLASS="western">&Eacute;tape 5. Fusionnez votre demande de tirage
+</H2>
+<P>Dans cette derni&egrave;re &eacute;tape, il est temps de
+rassembler vos modifications - en fusionnant votre branche de
+<CODE CLASS="western">readme-edits</CODE> dans la branche principale.
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm">Cliquez sur le bouton de <STRONG>demande
+	de fusion</STRONG> vert pour fusionner les modifications dans le
+	<CODE CLASS="western">master</CODE> . 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Cliquez sur <STRONG>Confirmer la
+	fusion</STRONG> . 
+	</P>
+	<LI><P>Allez-y et supprimez la branche, puisque ses modifications
+	ont &eacute;t&eacute; incorpor&eacute;es, avec le bouton <STRONG>Supprimer
+	la branche</STRONG> dans la zone violette. 
+	</P>
+</OL>
+<P><IMG SRC="tutoGithub1_html_67c6f4d0.png" NAME="images9" ALIGN=LEFT WIDTH=643 HEIGHT=123 BORDER=0><BR CLEAR=LEFT><IMG SRC="tutoGithub1_html_m6188a14e.png" NAME="images10" ALIGN=LEFT WIDTH=643 HEIGHT=77 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<H3 CLASS="western">C&eacute;l&eacute;brer! 
+</H3>
+<P>En compl&eacute;tant ce tutoriel, vous avez appris &agrave; cr&eacute;er
+un projet et &agrave; faire une demande de tirage sur GitHub! 
+</P>
+<P>Voici ce que vous avez accompli dans ce tutoriel: 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Cr&eacute;ation d'un r&eacute;f&eacute;rentiel
+	open source 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">D&eacute;marrage et gestion d'une
+	nouvelle succursale 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Modification d'un fichier et
+	validation de ces modifications dans GitHub 
+	</P>
+	<LI><P>Ouverture et fusion d'une demande d'extraction 
+	</P>
+</UL>
+<P>Regardez votre profil GitHub et vous verrez vos nouvelles <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=https://help.github.com/articles/viewing-contributions&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhiAy7ZWIpsm7NMtwHzBd2LaKK2tGg">places
+de contribution</A> ! 
+</P>
+<P>Pour en savoir plus sur la puissance des demandes d'extraction,
+nous vous recommandons de lire le <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=http://guides.github.com/overviews/flow/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhiTvlCEJxpmhlKc-q0F74lh-V62cQ">Guide
+de flux GitHub</A> . Vous pouvez &eacute;galement visiter <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=http://github.com/explore&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhjqBcnvtV9yhebmgINcpqYyvaYe8Q">GitHub
+Explore</A> et vous impliquer dans un projet Open Source. 
+</P>
+<HR>
+<BLOCKQUOTE><STRONG>Conseil</STRONG> : consultez nos autres <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=http://guides.github.com/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhhCX4djOFe207iTaRVoOFlWCTOfcw">guides</A>
+, <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=http://youtube.com/githubguides&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhg-oTDIdML8lB-dkgYRI8En7Hqisw">la
+cha&icirc;ne YouTube</A> et la <A HREF="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=fr&amp;rurl=translate.google.com&amp;sl=auto&amp;sp=nmt4&amp;tl=fr&amp;u=https://services.github.com/on-demand/&amp;xid=17259,15700002,15700021,15700186,15700191,15700256,15700259,15700262,15700265,15700271&amp;usg=ALkJrhi0U3Oo72EYos0986aOmX7K9VlXMg">formation
+&agrave; la demande</A> pour en savoir plus sur la mise en route de
+GitHub. 
+</BLOCKQUOTE>
+<P>Derni&egrave;re mise &agrave; jour le 7 avril 2016  
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+</BODY>
+</HTML>
